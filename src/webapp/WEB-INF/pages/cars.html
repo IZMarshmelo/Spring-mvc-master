@@ -13,7 +13,7 @@
     <th>Мощность мотора</th>
   </tr>
 
-  <tr th:each="car: ${cars}">
+  <tr th:each="car: ${carList}">
     <td th:text="${car.series}"/>
     <td th:text="${car.model}"/>
     <td th:text="${car.enginePower}"/>
